@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	}
+
+#header{
+	width:900px;
+	height:87px;
+	margin:0 auto;
+	position:relative;
+	}
+#header .my{
+	width:180px;
+	height:50px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	}
+#header .my a{
+	font-size:12px;
+	line-height:50px;
+	text-decoration:none;
+	color:#999;
+	}
+#header .my a:hover{
+	background-color:#FF6;
+	}
+	
+#biao{
+	width:900px;
+	height:38px;
+	margin:0 auto;
+	background:#F00;
+	}
+#biao a{
+	line-height:38px;
+	font-size:18px;
+	color:#FFF;
+	font-weight:350;
+	padding:5px 2px;
+	text-decoration:none;
+	}
+a:hover{
+	background-color:#49C8F5;
+	}
+	
+#sell{
+	width:900px;
+	height:404px;
+	background:url(Image/slide-4-image.png) no-repeat;
+	margin:0 auto;
+	}
+	
+#pic_lun{
+	width:900px;
+	height:60px;
+	}
+
+#new{
+	width:900px;
+	height:100px;
+	background:url(Image/redbanner.jpg) no-repeat;
+	margin:0 auto;
+	}
+	
+#content{
+	width:900px;
+	height:690px;
+	margin:0 auto;
+	}
+#content .thing{
+	width:220px;
+	height:285px;
+	float:left;
+	margin:20px 30px;
+	border:1px solid #999;
+	}
+#content .thing img{
+	left:15px;
+	}
+#content .thing h4{
+	color:#666;
+	margin:2px;
+	text-align:center;
+	}
+#content .thing h3{
+	width:115px;
+	height:40px;
+	border-top:#F00 solid 1px;
+	float:left;
+	display:inline-block;
+	}
+#content .thing a{
+	width:105px;
+	text-decoration:none;
+	background:#F8171B;
+	color:#F3F3F3;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-weight:600;
+	border-top:#F00 solid 1px;
+	display:inline-block;
+	}
+#content .thing a:hover{
+	background:#C4C4C4;
+	}
+
+#footer{
+	width:900px;
+	height:65px;
+	background:#F00;
+	margin:0 auto;
+	}
+#footer p{
+	width:900px;
+	color:#FFF;
+	text-align:center;
+	padding-top:5px;
+	}
+
+

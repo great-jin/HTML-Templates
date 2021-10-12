@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	}
+	
+#banner{
+	width:100%;
+	height:50px;
+	background-color:#920000;
+	color:#F3F3F3;
+	}
+#banner .kong{
+	width:80px;
+	height:50px;
+	float:left;
+	}
+#banner .pic{
+	width:282px;
+	height:50px;
+	float:left;
+	}	
+#banner a{
+	font-size:24px;
+	color:#F3F3F3;
+	font-weight:600;
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 100px;
+	display:inline-block;
+	}
+#banner a:hover{
+	background-color:#C81E25;
+	}
+	
+
+#content{
+	width:1200px;
+	height:1700px;
+	margin:10px auto;
+	}
+#content h1{
+	text-align:center;
+	padding:5px;
+	border-bottom:#888888 1px solid;
+	}
+#content p{
+	text-indent:32px;
+	font-size:18px;
+	margin:10px 50px;
+	line-height:30px;
+	word-spacing:3px;
+	}
+#content .pic{
+	width:640px;
+	height:354px;
+	margin-left:50px;
+	margin-right:5px;
+	float:right;
+	background:url(../../Images/ebetbt.jpg) no-repeat;
+	}
+#content .wen{
+	width:450px;
+	height:354px;
+	}
+#content .pic2{
+	width:500px;
+	height:339px;
+	margin-left:50px;
+	margin-right:10px;
+	float:left;
+	background:url(../../Images/ergtb.jpg) no-repeat;
+	}
+#content .pic3{
+	width:747px;
+	height:430px;
+	margin-left:50px;
+	margin-right:10px;
+	float:left;
+	background:url(../../Images/rbetbt.jpg) no-repeat;
+	}
+
+
+
+#footer{
+	width:100%;
+	height:80px;
+	margin-top:30px;
+	background-color:#C81E25;
+	}
+#footer p{
+	margin:10px;
+	text-indent:30px;
+	color:#F3F3F3;
+	text-align:center;
+	font-weight:600;
+	}

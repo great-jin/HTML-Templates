@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	}
+
+#box{
+	width:1000px;
+	height:100px;
+	margin:0 auto;
+	background:#09F;
+	}
+#box .gg_box{
+	width:800px;
+	height:100px;
+	margin:0 auto;
+	background:#CF3;
+	position:relative;
+	}
+#box .gg_box .gg_close{
+	width:15px;
+	height:15px;
+	background:#666;
+	position:absolute;
+	right:5px;
+	top:5px;
+	text-align:center;
+	line-height:15px;
+	cursor:pointer;
+	}
+
+#g_left{
+	width:150px;
+	height:180px;
+	position:fixed;
+	left:2px;
+	top:150px;
+	background:#FF3;
+	cursor:pointer;
+	}
+#g_right{
+	width:150px;
+	height:180px;
+	position:fixed;
+	right:2px;
+	top:150px;
+	background:#FF3;
+	cursor:pointer;
+	}
+.g_close{
+	width:150px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:#666;
+	}
+
+#content{
+	width:900px;
+	height:1500px;
+	background:#6F0;
+	margin:15px auto;}

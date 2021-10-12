@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	}
+	
+#header{
+	width:100%;
+	height:428px;
+	}
+
+#banner{
+	width:100%;
+	height:50px;
+	background-color:#920000;
+	color:#F3F3F3;
+	}
+#banner .pic{
+	width:282px;
+	height:50px;
+	float:left;
+	}
+#banner .emp{
+	width:150px;
+	height:50px;
+	float:left;}
+#banner a{
+	font-size:24px;
+	color:#F3F3F3;
+	font-weight:600;
+	text-decoration:none;
+	padding:0px 80px;
+	line-height:50px;
+	display:inline-block;
+	}
+#banner a:hover{
+	background-color:#C81E25;
+	}
+	
+#banner span{
+	color:#FDF996;
+	margin-left:29px;
+	position:relative;
+	left:0px;
+	}	
+#banner li{
+	display:none;
+	list-style:none;
+	position:absolute;
+	right:70px;
+	}	
+#banner .my{
+	width:75px;
+	background-color:#fff;
+	border:1px solid #eee;
+	}
+#banner .my a{
+	display:block;
+	padding:0 10px;
+	line-height:28px;
+	background-color:#3F3F3F;
+	color:#F3F3F3;
+	font-size:12px;
+	}
+#banner .my a:hover{
+	background-color:#FAFF5F;
+	}	
+
+
+#content{
+	width:1200px;
+	height:950px;
+	margin:10px auto;
+	position:relative;
+	}
+#content #pi{
+	width:600px;
+	height:340px;
+	padding:10px 20px;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+#content .con{
+	width:525px;
+	height:336px;
+	position:absolute;
+	right:12px;
+	top:10px;
+	}
+#content .con h3{
+	color:#000000;
+	font-size:22px;
+	text-align:center;
+	margin:10px 0px;
+	}
+#content .con p{
+	text-indent:25px;
+	color:#4B4B4B;
+	margin-top:10px;
+	}
+#content .ban{
+	width:1200px;
+	height:100px;
+	margin:10px; auto;
+	background:url(Images/ef.jpg) no-repeat;
+	}
+#content .ban h1{
+	text-align:center;
+	font-size:30px;
+	line-height:100px;
+	}
+#content #pict{
+	width:620px;
+	height:409px;
+	float:right;
+	margin:15px 10px;
+	padding:10px 20px;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+#content h3{
+	text-align:center;
+	}
+#content p{
+	color:#636363;
+	text-indent:25px;
+	line-height:22px;
+	}
+	
+
+#footer{
+	width:100%;
+	height:80px;
+	margin-top:10px;
+	background-color:#C81E25;
+	}
+#footer p{
+	margin:10px;
+	text-indent:30px;
+	color:#F3F3F3;
+	text-align:center;
+	font-weight:600;
+	}
